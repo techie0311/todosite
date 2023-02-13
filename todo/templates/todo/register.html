@@ -1,0 +1,10 @@
+
+{% for task in tasks %}
+<h1> Title : {{task.title}} </h1>
+<a> Status : {{task.status}}</a>
+<hr>
+<a> Priority : {{task.priority}} </a>
+<hr>
+<a> Created  : {{task.created}} </a>
+{% endfor %}
+
